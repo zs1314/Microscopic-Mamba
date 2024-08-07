@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/mamba.png" width="1000">
+<img src="assets/msmamba.png" width="1000">
 <h3>Microscopic-Mamba: Revealing the Secrets of Microscopic Images with Only 4M Parameters</h3>
 
 [[`Paper`]()] 
@@ -39,7 +39,7 @@ performance on five public datasets.
 ## 💎Let's Get Started!
 ### `A. Installation`
 
-Note that the code in this repo runs under **Linux** system. We have not tested whether it works under other OS.
+Note that the code in this repo runs under **Linux** system. 
 
 The repo is based on the [VMama repo](https://github.com/MzeroMiko/VMamba), thus you need to install it first. The following installation sequence is taken from the VMamba repo. 
 
@@ -47,8 +47,8 @@ The repo is based on the [VMama repo](https://github.com/MzeroMiko/VMamba), thus
 
 Clone this repository and navigate to the project directory:
 ```bash
-git clone https://github.com/ChenHongruixuan/MambaCD.git
-cd msmamba
+git clone https://github.com/zs1314/Microscopic-Mamba.git
+cd Microscopic-Mamba
 ```
 
 
@@ -72,7 +72,7 @@ cd kernels/selective_scan && pip install .
 
 ### `B. Data Preparation`
 
-The three datasets [RPE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4760937/), [MHIST](https://bmirds.github.io/MHIST/) , [SARS](https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#malaria-datasets) ,[TissueMnist](https://medmnist.com/) and [MedMf_colon](https://medfm2023.grand-challenge.org/medfm2023/) are used for MIC experiments. Please download them and make them have the following folder/file structure:
+The five datasets [RPE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4760937/), [MHIST](https://bmirds.github.io/MHIST/) , [SARS](https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#malaria-datasets) ,[TissueMnist](https://medmnist.com/) and [MedMf_colon](https://medfm2023.grand-challenge.org/medfm2023/) are used for MIC experiments. Please download them and make them have the following folder/file structure:
 ```
 ${DATASET_ROOT}   # Dataset root directory, for example: /home/username/data
 ├── RPE
@@ -100,7 +100,7 @@ ${DATASET_ROOT}   # Dataset root directory, for example: /home/username/data
 ├── TissueMnist
 ├── MedMf_Colon
 ```
-Or you can download it from here: [baidu](https://pan.baidu.com/s/1VzCz9UOKg0hyZIjvUOR8kA?pwd=1314 )
+Or you can download it from here: [baidu Netdisk](https://pan.baidu.com/s/1VzCz9UOKg0hyZIjvUOR8kA?pwd=1314 )
 
 
 ### `C. Model Training`
