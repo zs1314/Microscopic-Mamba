@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/msmamba.png" width="1000">
+<img src="assets/msmamba.png">
 <h3>Microscopic-Mamba: Revealing the Secrets of Microscopic Images with Only 4M Parameters</h3>
 
 [[`Paper`]()] 
