@@ -9,29 +9,16 @@
 </div>
 
 ## Abstract
-In the field of medical microscopic image classification
-(MIC), CNN-based and Transformer-based models have been
-extensively studied. However, CNNs struggle with modeling
-long-range dependencies, limiting their ability to fully utilize
-semantic information in images. Conversely, Transformers
-are hampered by the complexity of quadratic computations.
-To address these challenges, we propose a model based on
-the Mamba architecture: Microscopic-Mamba. Specifically,
-we designed the Partially Selected Feed Forward Network
-(PSFFN) to replace the last linear layer of the Visual State
-Space Module (VSSM), enhancing Mamba’s local feature
-extraction capabilities. Additionally, we introduced the Mod-
-ulation Interaction Feature Aggregation (MIFA) module to
-effectively modulate and dynamically aggregate global and
-local features. We also incorporated a parallel VSSM mech-
-anism to improve inter-channel information interaction while
-reducing the number of parameters. Extensive experiments
-have demonstrated that our method achieves state-of-the-art
-performance on five public datasets.
+In the field of medical microscopic image classification (MIC), CNN-based and Transformer-based models have been extensively studied. However, CNNs struggle with modeling long-range dependencies, limiting their ability to fully utilize semantic information in images. Conversely, Transformers are hampered by the complexity of quadratic computations. To address these challenges, we propose a model based on the Mamba architecture: Microscopic-Mamba. Specifically, we designed the Partially Selected Feed-Forward Network (PSFFN) to replace the last linear layer of the Visual State Space Module (VSSM), enhancing Mamba's local feature extraction capabilities. Additionally, we introduced the Modulation Interaction Feature Aggregation (MIFA) module to effectively modulate and dynamically aggregate global and local features. We also incorporated a parallel VSSM mechanism to improve inter-channel information interaction while reducing the number of parameters. Extensive experiments have demonstrated that our method achieves state-of-the-art performance on five public datasets. Code is available at https://github.com/zs1314/Microscopic-Mamba
 
 ## Overview
 <p align="center">
   <img src="assets/overview.jpg" alt="accuracy" width="100%">
+</p>
+
+## 🔥The classification performance of Microscopic-Mamba
+<p align="center">
+  <img src="assets/result.png" alt="accuracy" width="100%">
 </p>
 
 ---
@@ -114,7 +101,7 @@ python train.py
 ```bash
 python test.py 
 ```
-🐥: Before training and testing, configure the relevant parameters in the script
+🐥: Before training and testing, configure the relevant parameters in the script. You are better off calculating the mean and std for each data set, which also helps to further improve model performance. `get_means.py`
 
 
 
