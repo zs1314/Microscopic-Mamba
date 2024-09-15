@@ -114,16 +114,12 @@ This project is based on VMamba ([paper](https://arxiv.org/abs/2401.10166), [cod
 
 If this code or paper contributes to your research, please kindly consider citing our paper and give this repo ⭐️ 🌝
 ```
-@misc{zou2024microscopicmambarevealingsecretsmicroscopic,
-      title={Microscopic-Mamba: Revealing the Secrets of Microscopic Images with Just 4M Parameters}, 
-      author={Shun Zou and Zhuo Zhang and Yi Zou and Guangwei Gao},
-      year={2024},
-      eprint={2409.07896},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2409.07896}, 
+@article{zou2024microscopic,
+  title={Microscopic-Mamba: Revealing the Secrets of Microscopic Images with Just 4M Parameters},
+  author={Zou, Shun and Zhang, Zhuo and Zou, Yi and Gao, Guangwei},
+  journal={arXiv preprint arXiv:2409.07896},
+  year={2024}
 }
-
 ```
 
 
